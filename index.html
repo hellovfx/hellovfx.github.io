@@ -27,7 +27,7 @@
 
   <script>
     var userDefinedSearchData = {"custom":true,"thisSearch":"https://www.baidu.com/s?wd=","thisSearchIcon":"url(https://www.baidu.com/favicon.ico)","hotStatus":true,"data":[{"name":"百度","img":"url(https://www.baidu.com/favicon.ico)","url":"https://www.baidu.com/s?wd="},{"name":"谷歌","img":"url(https://www.google.com/favicon.ico)","url":"https://www.google.com/search?q="}]};
-    var expandAll = false;
+    var expandAll = true;
   </script>
   
 <script src="/js/header.js"></script>
@@ -96,7 +96,7 @@
         
           <a href="#软件工具" class="smooth">
             
-            <i class="far fa-star"></i>
+            <i class="fas fa-tools"></i>
             <span class="title">软件工具</span>
           </a>
           
@@ -104,35 +104,45 @@
       
       <li class="">
         
-          <a href="#影视动画" class="smooth">
+          <a href="#电影电视" class="smooth">
             
-            <i class="far fa-star"></i>
-            <span class="title">影视动画</span>
+            <i class="fas fa-video"></i>
+            <span class="title">电影电视</span>
           </a>
           
       </li>
       
       <li class="">
         
+          <a href="#动画漫画" class="smooth">
+            
+            <i class="fas fa-camera"></i>
+            <span class="title">动画漫画</span>
+          </a>
+          
+      </li>
+      
+      <li class="expanded">
+        
         <a class="fas fa-angle-down" style="cursor: pointer;">
           
             <i class="fas fa-tools"></i>
-            <span class="title">3D资源</span>
+            <span class="title">影视后期</span>
           </a>
           
-          <ul style="display: none;">
+          <ul style="display: block;">
             
             <li>
-              <a href="#Blender" class="smooth">
-                <i class="fas fa-tools"></i>
-                <span class="title">Blender</span>
+              <a href="#视频资料" class="smooth">
+                <i class="fas fa-film"></i>
+                <span class="title">视频资料</span>
               </a>
             </li>
             
             <li>
-              <a href="#我的博客" class="smooth">
-                <i class="fas fa-blog"></i>
-                <span class="title">我的博客</span>
+              <a href="#相关插件" class="smooth">
+                <i class="fas fa-plug"></i>
+                <span class="title">相关插件</span>
               </a>
             </li>
             
@@ -246,6 +256,22 @@
 <div class="row">
   
   <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('/child', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="/child">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/myblog.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Child Page</strong>
+          </a>
+          <p class="overflowClip_2">子页面测试</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://toolb.cn/textspeech', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://toolb.cn/textspeech">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
@@ -255,7 +281,39 @@
           <a href="#" class="xe-user-name overflowClip_1">
             <strong>Textspeech</strong>
           </a>
-          <p class="overflowClip_2">微软AI语音</p>
+          <p class="overflowClip_2">文本转AI语音</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.fontawesome.com.cn/faicons/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.fontawesome.com.cn/faicons/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/github.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Font Awesome</strong>
+          </a>
+          <p class="overflowClip_2">Font Awesome 字体为您提供可缩放矢量图标(675个)。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://pic.gimhoy.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://pic.gimhoy.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/github.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Gimhoy图床</strong>
+          </a>
+          <p class="overflowClip_2">Gimhoy图床无限流量、无限外链、全网CDN、永久免费。</p>
         </div>
       </div>
     </div>
@@ -271,7 +329,145 @@
     
     
     
-    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="影视动画"></i>影视动画</h4>
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="电影电视"></i>电影电视</h4>
+<div class="row">
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.voflix.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.voflix.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="https://www.voflix.com/upload/mxprocms/20220704-1/e50b01a4be10bb9bd348637e19d8d95a.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>VOFlIX</strong>
+          </a>
+          <p class="overflowClip_2">voflix。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.libvio.me', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.libvio.me">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/myBlog.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>LIBVIO</strong>
+          </a>
+          <p class="overflowClip_2">libvio。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://app.movie/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://app.movie/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/myBlog.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>APP影院</strong>
+          </a>
+          <p class="overflowClip_2">APP影院。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://cupfox.app/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://cupfox.app/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/myBlog.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>茶杯狐</strong>
+          </a>
+          <p class="overflowClip_2">Cupfox茶杯狐。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.mozhatu.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.mozhatu.com">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/myBlog.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>莫扎兔</strong>
+          </a>
+          <p class="overflowClip_2">莫扎兔。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.meijuby.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.meijuby.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/myBlog.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>美剧网</strong>
+          </a>
+          <p class="overflowClip_2">美剧网。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<br />
+
+    
+    
+    
+    
+    
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="动画漫画"></i>动画漫画</h4>
+<div class="row">
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.dmhuah.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.dmhuah.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="https://res8.dmhuah.com/images/logo/logo.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>动漫画</strong>
+          </a>
+          <p class="overflowClip_2">漫画网站。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<br />
+
+    
+    
+    
+    
+    
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="视频资料"></i>视频资料</h4>
 <div class="row">
   
   <div class="col-sm-3">
@@ -297,65 +493,20 @@
     
     
     
-    
-    
-    
-    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="Blender"></i>Blender</h4>
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="相关插件"></i>相关插件</h4>
 <div class="row">
   
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('/child', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="/child">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="/images/logos/github.png" class="lozad img-circle" width="40">
+          <img data-src="/images/logos/myblog.png" class="lozad img-circle" width="40">
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1">
-            <strong>Github</strong>
+            <strong>Child Page</strong>
           </a>
-          <p class="overflowClip_2">面向开源及私有软件项目的托管平台。</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/">
-      <div class="xe-comment-entry">
-        <a class="xe-user-img">
-          <img data-src="/images/logos/github.png" class="lozad img-circle" width="40">
-        </a>
-        <div class="xe-comment">
-          <a href="#" class="xe-user-name overflowClip_1">
-            <strong>Github</strong>
-          </a>
-          <p class="overflowClip_2">面向开源及私有软件项目的托管平台。</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-</div>
-<br />
-
-    
-    
-    
-    
-    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="我的博客"></i>我的博客</h4>
-<div class="row">
-  
-  <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://hellovfx.github.io', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://hellovfx.github.io">
-      <div class="xe-comment-entry">
-        <a class="xe-user-img">
-          <img data-src="/images/logos/myBlog.png" class="lozad img-circle" width="40">
-        </a>
-        <div class="xe-comment">
-          <a href="#" class="xe-user-name overflowClip_1">
-            <strong>小黑的笔记库</strong>
-          </a>
-          <p class="overflowClip_2">小黑的笔记收藏夹。</p>
+          <p class="overflowClip_2">子页面测试</p>
         </div>
       </div>
     </div>
